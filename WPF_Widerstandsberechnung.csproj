@@ -6,4 +6,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="OHM.ico" />
+    <None Remove="Omega-Symbol-body-1024x768.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="OHM.ico" />
+    <Resource Include="Omega-Symbol-body-1024x768.png" />
+  </ItemGroup>
+
 </Project>

@@ -1,12 +1,24 @@
-﻿<Window x:Class="WPF_Widerstandsberechnung.MainWindow"
+﻿<Window x:Name="form_Main" x:Class="WPF_Widerstandsberechnung.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Widerstandsberechnung"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Wiederstandberechnung" Height="450" Width="800" Background="#FFF0A3A3" FontSize="20" Icon="/OHM.ico">
     <Grid>
+        <Grid HorizontalAlignment="Center" Height="130" Margin="0,27,0,0" VerticalAlignment="Top" Width="172">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Omega-Symbol-body-1024x768.png"/>
+            </Grid.Background>
+        </Grid>
+        <TextBox x:Name="txtBox_Ohm" HorizontalAlignment="Left" Height="28" Margin="73,0,0,0" Text="100" TextWrapping="Wrap" VerticalAlignment="Center" Width="98" Background="#FF60D4CF" FontSize="20" FontFamily="Arial"/>
+        <TextBox x:Name="txtBox_Ampere" HorizontalAlignment="Center" Height="28" Text="100" TextWrapping="Wrap" VerticalAlignment="Center" Width="98" Background="#FF60D4CF" FontSize="20" FontFamily="Arial"/>
+        <TextBox x:Name="txtBox_Volt" HorizontalAlignment="Left" Height="28" Margin="577,0,0,0" Text="100" TextWrapping="Wrap" VerticalAlignment="Center" Width="98" Background="#FF60D4CF" FontSize="20" FontFamily="Arial"/>
+        <Label x:Name="lbl_ohm" Content="Ohm" HorizontalAlignment="Left" Height="28" Margin="176,0,0,0" VerticalAlignment="Center" Width="73" FontSize="20" FontFamily="Arial"/>
+        <Label x:Name="lbl_Volt" Content="Volt" HorizontalAlignment="Left" Height="28" Margin="680,0,0,0" VerticalAlignment="Center" Width="73" FontSize="20" FontFamily="Arial"/>
+        <Label x:Name="lbl_Ampere" Content="Ampere" HorizontalAlignment="Left" Height="52" Margin="454,203,0,0" VerticalAlignment="Top" Width="80" FontSize="20" FontFamily="Arial"/>
+        <Button x:Name="cmd_Berechnen" Content="Berechnen" HorizontalAlignment="Center" Height="41" Margin="0,296,0,0" VerticalAlignment="Top" Width="248" Background="#FFA82A2A" FontSize="20"/>
 
     </Grid>
 </Window>
