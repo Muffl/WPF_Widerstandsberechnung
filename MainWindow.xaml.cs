@@ -24,5 +24,23 @@ namespace WPF_Widerstandsberechnung
         {
             InitializeComponent();
         }
+
+        private void cmd_Berechnen_Click(object sender, RoutedEventArgs e)
+        {
+            double ohm;
+            double ampere;
+            double volt;
+
+            //ohm = Convert.ToDouble(txtBox_Ohm.Text);
+            ampere = Convert.ToDouble(txtBox_Ampere.Text);
+            volt = Convert.ToDouble(txtBox_Volt.Text);
+
+            ohm = volt / ampere;
+
+            string format = "{0,10:000}";
+
+            txtBox_Ohm.Text = String.Format(format, ohm); 
+
+        }
     }
 }

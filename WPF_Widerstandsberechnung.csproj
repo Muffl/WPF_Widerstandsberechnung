@@ -9,11 +9,13 @@
   <ItemGroup>
     <None Remove="OHM.ico" />
     <None Remove="Omega-Symbol-body-1024x768.png" />
+    <None Remove="Widerstand.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="OHM.ico" />
     <Resource Include="Omega-Symbol-body-1024x768.png" />
+    <Resource Include="Widerstand.png" />
   </ItemGroup>
 
 </Project>
