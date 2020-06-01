@@ -12,7 +12,7 @@
                 <ImageBrush ImageSource="/Widerstand.png"/>
             </Grid.Background>
         </Grid>
-        <TextBox x:Name="txtBox_Ohm" HorizontalAlignment="Left" Height="28" Margin="73,0,0,0" Text="100" TextWrapping="Wrap" VerticalAlignment="Center" Width="98" Background="#FF60D4CF" FontSize="20" FontFamily="Arial"/>
+        <TextBox x:Name="txtBox_Ohm" HorizontalAlignment="Left" Height="28" Margin="73,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="98" Background="#FF60D4CF" FontSize="20" FontFamily="Arial"/>
         <TextBox x:Name="txtBox_Ampere" HorizontalAlignment="Left" Height="28" Text="100" TextWrapping="Wrap" VerticalAlignment="Center" Width="98" Background="#FF60D4CF" FontSize="20" FontFamily="Arial" Margin="314,0,0,0"/>
         <TextBox x:Name="txtBox_Volt" HorizontalAlignment="Left" Height="28" Margin="577,0,0,0" Text="100" TextWrapping="Wrap" VerticalAlignment="Center" Width="98" Background="#FF60D4CF" FontSize="20" FontFamily="Arial"/>
         <Label x:Name="lbl_ohm" Content="Ohm" HorizontalAlignment="Left" Height="28" Margin="176,0,0,0" VerticalAlignment="Center" Width="73" FontSize="20" FontFamily="Arial"/>
